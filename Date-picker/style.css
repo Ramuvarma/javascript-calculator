@@ -1,0 +1,26 @@
+body {
+  background: black;
+}
+.cal-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 2px;
+  width: 20px;
+}
+.weeks {
+  padding: 6px;
+  font-size: 18px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+.calendar {
+  text-align: center;
+  font-size: 24px;
+  height: 20px;
+  width: 20px;
+}
+ul li {
+  background: rgb(180, 110, 19);
+}
